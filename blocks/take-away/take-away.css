@@ -1,0 +1,48 @@
+.take-away {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 30px;
+  margin: 120px 0 0;
+}
+
+.take-away__title {
+  align-self: flex-end;
+}
+
+.take-away__description {
+  align-self: flex-start;
+}
+
+.take-away__image {
+  grid-column: 2;
+  grid-row: 1/3;
+  width: 100%;
+  height: auto;
+}
+
+.take-away__btn-logo {
+  width: 26px;
+  height: 26px;
+  margin: 0 8px 0 0;
+}
+
+@media (max-width: 768px) {
+  .take-away {
+    margin: 50px 0 0;
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+  }
+
+  .take-away__image {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .take-away__description {
+    justify-self: center;
+  }
+}

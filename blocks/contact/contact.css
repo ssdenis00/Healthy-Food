@@ -1,0 +1,18 @@
+.contact {
+  background: rgba(220, 120, 11, .1);
+  padding: 115px 0 117px;
+  margin-top: 120px;
+}
+
+.contact__form {
+  display: flex;
+  justify-content: center;
+  margin: 46px auto 0;
+}
+
+.contact__input {
+  border: none;
+  border-radius: 10px 0 0 10px;
+  padding: 28px;
+  width: calc(100% - 156px);
+}

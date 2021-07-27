@@ -1,0 +1,108 @@
+.btn {
+  cursor: pointer;
+  background: #DC780B;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+}
+
+.btn:focus {
+  border: none;
+}
+
+.btn:active {
+  border: none;
+}
+
+.btn:hover {
+  transform: scale(1.03, 1.03);
+}
+
+.btn_place_header {
+  width: 155px;
+  height: 46px;
+}
+
+.btn_place_lead {
+  width: 158px;
+  height: 60px;
+  margin: 0 30px 10px 0;
+}
+
+.btn_place_lead:last-of-type {
+  margin: 0;
+}
+
+.btn_style_white {
+  width: 170px;
+  color: #DC780B;
+  background: #fff;
+  border: 1.5px solid rgba(220, 120, 11, .1);;
+}
+
+.btn_place_about {
+  width: 142px;
+  height: 42px;
+  margin: 29px 0 0;
+}
+
+.btn_place_menu-item {
+  margin: 20px 0 0 25px;
+  width: 36px;
+  height: 34px;
+}
+
+.btn_place_menu {
+  display: block;
+  margin: 50px auto;
+  width: 142px;
+  height: 42px;
+}
+
+.btn_place_take-away {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 163px;
+  height: 48px;
+  margin: 39px 30px 0 0;
+}
+
+.btn_place_take-away:last-of-type {
+  margin-right: 0;
+}
+
+.btn_type_apple {
+  background: #000;
+  color: #fff;
+}
+
+.btn_type_google {
+  background: transparent;
+  color: #000;
+  border: 1.5px solid rgba(21, 12, 1, .1);
+  font-weight: bold;
+}
+
+.btn_place_contact {
+  width: 156px;
+  height: 75px;
+}
+
+@media (max-width: 768px) {
+  .btn_place_take-away {
+    display: flex;
+    margin: 15px auto 0;
+  }
+
+  .btn_place_take-away:last-of-type {
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 425px) {
+  .btn_place_lead {
+    margin: 0 0 20px;
+  }
+}

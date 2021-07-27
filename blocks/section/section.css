@@ -1,0 +1,83 @@
+.section__title {
+  color: #DC780B;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.7;
+  letter-spacing: 0.2em;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0;
+  text-shadow: 1px 1px #fff;
+}
+.section__subtitle {
+  font-family: 'Philosopher';
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 748px;
+  width: 100%;
+  margin: 7px auto 0;
+  text-shadow: 1px 1px #fff;
+}
+
+.section__text {
+  opacity: 0.7;
+}
+
+.section__title_place_about {
+  text-align: left;
+}
+
+.section__subtitle_place_about {
+  text-align: left;
+  margin: 10px 0 0;
+}
+
+.section__text_place_menu {
+  margin: 7px auto 0;
+  text-align: center;
+}
+
+.section__title_place_take-away {
+  text-align: left;
+}
+
+.section__subtitle_place_take-away {
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .section__title {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .section__subtitle {
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .section__title_place_take-away {
+    text-align: center;
+  }
+  
+  .section__subtitle_place_take-away {
+    text-align: center;
+  }
+
+  .section__text {
+    font-size: 14px;
+    line-height: 16px;
+  }
+
+  .section__title_place_about {
+    text-align: center;
+    margin: 40px 0 0;
+  }
+
+  .section__subtitle_place_about {
+    text-align: center;
+    margin: 10px 0 0;
+  }
+}
